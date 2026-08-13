@@ -1,0 +1,212 @@
+/* 🔥 GLOBAL STYLE */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔥 NAVBAR / HEADER */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* 🔥 CARD BOX */
+/* 🔥 ONLY FOR INNER PAGES */
+.container-large {
+    width: 95%;   /* 🔥 almost full screen */
+    margin: auto;
+    margin-top: 30px;
+}
+/* 🔥 FORM CARD */
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* 🔥 INPUT FIELDS */
+input, textarea, select {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* 🔥 BUTTON */
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* 🔥 LINKS */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #0056b3;
+}
+
+/* 🔥 TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+/* 🔥 FLEX BUTTONS (Dashboard) */
+.menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card:hover {
+    transform: none;
+    
+}
+form {
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 300px;   /* login stays small */
+    border-radius: 10px;
+}
+
+/* 🔥 PAGE HEADER */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.page-header h2 {
+    margin: 0;
+}
+
+/* 🔥 BACK BUTTON */
+.back-btn {
+    background: #6c757d;
+}
+
+.back-btn:hover {
+    background: #5a6268;
+}
+
+/* 🔥 FORM GRID */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* 🔥 TEXTAREA IMPROVE */
+textarea {
+    resize: vertical;
+}
+
+/* 🔥 BUTTON ALIGNMENT */
+.form-actions {
+    text-align: right;
+    margin-top: 15px;
+}
+textarea {
+    resize: none;   /* ❌ removes those lines */
+}
+
+form {
+    width: 300px; 
+}
+
+/* 🔥 DEFAULT FORM (for login only) */
+form {
+    width: 300px;
+}
+
+/* 🔥 FULL WIDTH FORM (for app pages) */
+.form-full {
+    width: 100%;
+}
+
+
+
+
+/* Upload Section */
+
+.upload-note{
+    margin-top:10px;
+    color:#666;
+    font-size:13px;
+    line-height:1.6;
+}
+
+input[type=file]{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    background:#fafafa;
+    cursor:pointer;
+}
+
+input[type=file]:hover{
+    background:#f2f2f2;
+}
+
+
+.error-box{
+
+    background:#ffe5e5;
+    color:#d60000;
+    border:1px solid #ffb5b5;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    margin-bottom:20px;
+
+    font-weight:bold;
+
+}
+
+
+
+
+
