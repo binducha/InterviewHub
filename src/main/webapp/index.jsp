@@ -7,7 +7,7 @@
 
 <style>
 
-/* 🔥 GLOBAL FIX */
+/* GLOBAL FIX */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +15,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* 🔥 LANDING PAGE */
+/*  LANDING PAGE */
 .hero {
     display: flex;
     height: 100vh;
@@ -53,7 +53,7 @@
     background: #f5f5f5;
 }
 
-/* 🔥 LOGIN BOX */
+/*  LOGIN BOX */
 .auth-box {
     background: white;
     padding: 35px;

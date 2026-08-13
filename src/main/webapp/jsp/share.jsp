@@ -17,13 +17,13 @@ if(session.getAttribute("user") == null){
 
 <div class="container-large">
 
-    <!-- 🔥 HEADER -->
+    <!--  HEADER -->
     <div class="page-header">
         <h2>Share Interview Experience</h2>
         <a class="back-btn" href="<%=request.getContextPath()%>/dashboard.jsp">Back</a>
     </div>
 
-    <!-- 🔥 CARD -->
+    <!-- CARD -->
     <div class="card">
     
     <% if(request.getAttribute("error")!= null){ %>

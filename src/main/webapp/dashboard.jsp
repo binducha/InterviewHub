@@ -40,7 +40,7 @@ if(session.getAttribute("user") == null){
     margin-bottom: 15px;
 }
 
-/* 🔥 BUTTON STYLE */
+/*  BUTTON STYLE */
 .box a {
     display: inline-block;
     padding: 10px 20px;
